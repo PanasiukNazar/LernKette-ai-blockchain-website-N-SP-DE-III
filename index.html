@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>LernKette</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark px-5">
+            <div class="row gx-4 d-none d-lg-flex">
+                <div class="col-lg-6 text-start">
+                    <div
+                        class="h-100 d-inline-flex align-items-center py-3 me-4"
+                    >
+                        <div
+                            class="btn-sm-square rounded-circle bg-primary me-2"
+                        >
+                            <small
+                                class="fa fa-map-marker-alt text-white"
+                            ></small>
+                        </div>
+                        <small
+                            >Manteuffelstraße 77, 10999 Berlin, Німеччина</small
+                        >
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center py-3">
+                        <div
+                            class="btn-sm-square rounded-circle bg-primary me-2"
+                        >
+                            <small
+                                class="fa fa-envelope-open text-white"
+                            ></small>
+                        </div>
+                        <small>lern_kette@gmail.com</small>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-end">
+                    <div
+                        class="h-100 d-inline-flex align-items-center py-3 me-4"
+                    >
+                        <div
+                            class="btn-sm-square rounded-circle bg-primary me-2"
+                        >
+                            <small class="fa fa-phone-alt text-white"></small>
+                        </div>
+                        <small>+494369010318417</small>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center py-3">
+                        <div
+                            class="btn-sm-square rounded-circle bg-primary me-2"
+                        >
+                            <small class="far fa-clock text-white"></small>
+                        </div>
+                        <small>Mon - Fri : 9AM - 9PM</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5"
+        >
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <h2 class="m-0 text-primary">LernKette</h2>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-4 py-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Home</a
+                    >
+                    <a href="index.html#about" class="nav-item nav-link"
+                        >Über Uns</a
+                    >
+                    <a href="index.html#blog" class="nav-item nav-link">Blog</a>
+                    <a href="index.html#testimonial" class="nav-item nav-link"
+                        >Referenzen</a
+                    >
+                    <a href="index.html#contact" class="nav-item nav-link"
+                        >Kontakt</a
+                    >
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5">
+            <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Willkommen bei LernKette – Ihr Partner
+                                        für Blockchain-Datenanalyse
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Entdecken Sie bei uns, wie Sie mit Hilfe
+                                        von Künstlicher Intelligenz und
+                                        Blockchain-Technologie effizient Daten
+                                        analysieren können – ohne sich mit
+                                        Handel oder Kryptowährungen beschäftigen
+                                        zu müssen. Unsere Schulungen richten
+                                        sich an alle, die praxisnah in die Welt
+                                        der Blockchain-Daten einsteigen möchten.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Lerne, Blockchain-Daten intelligent zu
+                                        nutzen
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Wir zeigen Ihnen, wie Sie
+                                        Blockchain-Daten mit Hilfe von KI
+                                        analysieren, strukturieren und anwenden
+                                        können – für technische, akademische
+                                        oder unternehmerische Zwecke. Keine
+                                        Coins, kein Trading – nur echte
+                                        Datenkompetenz.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-3.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Moderne Datenkompetenz im
+                                        Blockchain-Zeitalter
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-2"
+                                    >
+                                        Unsere Plattform vermittelt Ihnen
+                                        praxisnah, wie Sie
+                                        Blockchain-Datenquellen entschlüsseln
+                                        und mit KI-Tools nutzbar machen – für
+                                        Forschung, Bildung und datengetriebene
+                                        Projekte jeder Art.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Facts Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="h-100 bg-dark p-4 p-xl-5">
+                            <div
+                                class="d-flex align-items-center justify-content-between mb-4"
+                            >
+                                <div
+                                    class="btn-square rounded-circle"
+                                    style="
+                                        width: 64px;
+                                        height: 64px;
+                                        background: #000000;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/icon/icon-3.png"
+                                        alt="Icon"
+                                    />
+                                </div>
+                                <h1
+                                    class="display-1 mb-0"
+                                    style="color: #000000"
+                                >
+                                    01
+                                </h1>
+                            </div>
+                            <h5 class="text-white">
+                                Vereinbaren Sie Ihre kostenlose Erstberatung
+                            </h5>
+                            <hr class="w-25" />
+                            <span>
+                                Starten Sie Ihre Reise im Bereich KI und
+                                Blockchain-Datenanalyse mit einem kostenlosen
+                                Beratungsgespräch. Unsere Expertinnen und
+                                Experten besprechen mit Ihnen, wie Sie am besten
+                                den Umgang mit Blockchain-Daten erlernen – ganz
+                                ohne Handel oder Kryptowährungen.
+                            </span>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="h-100 bg-dark p-4 p-xl-5">
+                            <div
+                                class="d-flex align-items-center justify-content-between mb-4"
+                            >
+                                <div
+                                    class="btn-square rounded-circle"
+                                    style="
+                                        width: 64px;
+                                        height: 64px;
+                                        background: #000000;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/icon/icon-4.png"
+                                        alt="Icon"
+                                    />
+                                </div>
+                                <h1
+                                    class="display-1 mb-0"
+                                    style="color: #000000"
+                                >
+                                    02
+                                </h1>
+                            </div>
+                            <h5 class="text-white">
+                                Erstellen eines maßgeschneiderten Lernplans
+                            </h5>
+                            <hr class="w-25" />
+                            <span>
+                                Nach dem Erstgespräch entwerfen wir einen
+                                individuellen Plan, der speziell auf Ihre
+                                Bedürfnisse zugeschnitten ist. Wir helfen Ihnen,
+                                Blockchain-Daten zu verstehen, intelligente
+                                Datenabfragen durchzuführen und die Struktur der
+                                Blockchain mit Hilfe von KI zu analysieren.
+                            </span>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="h-100 bg-dark p-4 p-xl-5">
+                            <div
+                                class="d-flex align-items-center justify-content-between mb-4"
+                            >
+                                <div
+                                    class="btn-square rounded-circle"
+                                    style="
+                                        width: 64px;
+                                        height: 64px;
+                                        background: #000000;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/icon/icon-2.png"
+                                        alt="Icon"
+                                    />
+                                </div>
+                                <h1
+                                    class="display-1 mb-0"
+                                    style="color: #000000"
+                                >
+                                    03
+                                </h1>
+                            </div>
+                            <h5 class="text-white">
+                                Umsetzung und kontinuierliche Begleitung
+                            </h5>
+                            <hr class="w-25" />
+                            <span>
+                                Gemeinsam setzen wir Ihren Lernpfad um und
+                                begleiten Sie mit praktischen Übungen zur
+                                Analyse von Blockchain-Daten mithilfe von
+                                Künstlicher Intelligenz. Unser Team unterstützt
+                                Sie laufend und beantwortet alle Fragen rund um
+                                datengetriebene Blockchain-Anwendungen – ganz
+                                ohne Finanzmarktbezug.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- About Start -->
+        <div
+            class="container-fluid bg-light overflow-hidden my-5 px-lg-0"
+            id="about"
+        >
+            <div class="container about px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div class="col-lg-6 ps-lg-0" style="min-height: 400px">
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/approach.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 about-text py-5 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="p-lg-5 pe-lg-0">
+                            <div
+                                class="bg-primary mb-3"
+                                style="width: 60px; height: 2px"
+                            ></div>
+                            <h1 class="display-5 mb-4">
+                                Individuelle Beratung für KI in der
+                                Blockchain-Datenanalyse
+                            </h1>
+                            <p class="mb-4 pb-2">
+                                Unser Beratungsansatz richtet sich gezielt an
+                                alle, die fundiertes Wissen im Bereich der
+                                Künstlichen Intelligenz zur Analyse von
+                                Blockchain-Daten erwerben möchten. Dabei
+                                verzichten wir bewusst auf Themen wie
+                                Kryptowährungen oder Handel. Stattdessen zeigen
+                                wir Ihnen, wie man strukturierte und
+                                unstrukturierte Daten aus Blockchains
+                                extrahiert, analysiert und mithilfe von
+                                KI-Techniken wie maschinellem Lernen sinnvoll
+                                interpretiert.
+                                <br /><br />
+                                Gemeinsam mit unserem erfahrenen Team, unter der
+                                Leitung von Beratern wie Herr Johannes Berger
+                                und Frau Claudia Meißner, entwickeln wir einen
+                                praxisnahen Lernplan, der sich an Ihrem
+                                Kenntnisstand und Ihren Zielen orientiert.
+                                Unsere Module sind verständlich aufgebaut und
+                                praxisnah – ideal für Einsteiger und
+                                Fortgeschrittene, die datenbasierte Anwendungen
+                                auf der Blockchain entwickeln möchten.
+                                <br /><br />
+                                Vertrauen Sie auf unsere Erfahrung in der
+                                Kombination von künstlicher Intelligenz und
+                                Blockchain-Technologie. Wir begleiten Sie auf
+                                jedem Schritt Ihrer Lernreise mit praktischen
+                                Beispielen, verständlichen Erklärungen und
+                                persönlicher Betreuung.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Projects Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div
+                        class="bg-primary mb-3 mx-auto"
+                        style="width: 60px; height: 2px"
+                    ></div>
+                    <h1 class="display-5">
+                        Unsere Erfolge im Bereich KI und Blockchain-Datenanalyse
+                    </h1>
+                    <p class="mb-5">
+                        Unsere Beratungsfirma hat sich auf die Anwendung von
+                        Künstlicher Intelligenz in der Analyse von
+                        Blockchain-Daten spezialisiert. Unsere Projekte
+                        konzentrieren sich ausschließlich auf datengetriebene
+                        Anwendungen ohne Bezug zu Handel oder Kryptowährungen.
+                        In dieser Übersicht finden Sie innovative Ansätze, wie
+                        wir Unternehmen und Organisationen dabei unterstützen,
+                        Blockchain-Daten effizient zu nutzen und daraus
+                        wertvolle Erkenntnisse zu gewinnen.
+                    </p>
+                </div>
+                <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-12 text-center">
+                        <ul class="list-inline mb-5" id="portfolio-flters">
+                            <li class="mx-2 active" data-filter="*">Alle</li>
+                            <li class="mx-2" data-filter=".first">
+                                Abgeschlossene Projekte
+                            </li>
+                            <li class="mx-2" data-filter=".second">
+                                Laufende Projekte
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-4 portfolio-container">
+                    <div
+                        class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="portfolio-inner">
+                            <img
+                                class="img-fluid w-100"
+                                src="img/portfolio-1.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <p class="text-primary mb-2">
+                                    KI-gestützte Analyse von Transaktionsmustern
+                                </p>
+                                <h6 class="lh-base mb-0">
+                                    Wir entwickelten für ein Unternehmen ein
+                                    intelligentes System zur Mustererkennung in
+                                    Blockchain-Daten, das betrugsverdächtige
+                                    Aktivitäten automatisiert identifiziert.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="portfolio-inner">
+                            <img
+                                class="img-fluid w-100"
+                                src="img/portfolio-2.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <p class="text-primary mb-2">
+                                    Optimierung von Datenflüssen in
+                                    Blockchain-Netzen
+                                </p>
+                                <h6 class="lh-base mb-0">
+                                    Ein laufendes Projekt zielt darauf ab,
+                                    mithilfe von KI die Effizienz bei der
+                                    Verarbeitung großer Blockchain-Datenmengen
+                                    in Echtzeit zu verbessern.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="portfolio-inner">
+                            <img
+                                class="img-fluid w-100"
+                                src="img/portfolio-3.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <p class="text-primary mb-2">
+                                    Automatisiertes Reporting mit
+                                    Blockchain-Daten
+                                </p>
+                                <h6 class="lh-base mb-0">
+                                    Wir erstellten ein automatisiertes Dashboard
+                                    zur Visualisierung komplexer
+                                    Blockchain-Transaktionsdaten, das KI zur
+                                    Kategorisierung verwendet.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="portfolio-inner">
+                            <img
+                                class="img-fluid w-100"
+                                src="img/portfolio-4.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <p class="text-primary mb-2">
+                                    Bildungstour: Einführung in KI und
+                                    Blockchain-Daten
+                                </p>
+                                <h6 class="lh-base mb-0">
+                                    Für eine Gruppe junger Fachkräfte
+                                    organisierten wir eine Einführung in die
+                                    datenbasierte Analyse von Blockchain-Netzen
+                                    mittels Künstlicher Intelligenz.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="portfolio-inner">
+                            <img
+                                class="img-fluid w-100"
+                                src="img/portfolio-5.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <p class="text-primary mb-2">
+                                    Historische Datenanalyse auf Blockchains
+                                </p>
+                                <h6 class="lh-base mb-0">
+                                    Wir unterstützten eine Organisation bei der
+                                    Untersuchung historischer Blockchain-Daten,
+                                    um langfristige Nutzungsmuster durch KI zu
+                                    erkennen.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="portfolio-inner">
+                            <img
+                                class="img-fluid w-100"
+                                src="img/portfolio-6.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <p class="text-primary mb-2">
+                                    Netzwerkvisualisierung auf Blockchain-Basis
+                                </p>
+                                <h6 class="lh-base mb-0">
+                                    Mittels KI-basierten Algorithmen
+                                    entwickelten wir eine interaktive
+                                    Visualisierung von Netzwerkbeziehungen auf
+                                    öffentlichen Blockchains.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Projects End -->
+
+        <!-- Feature Start -->
+        <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+            <div class="container feature px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div
+                        class="col-lg-6 feature-text py-5 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="p-lg-5 ps-lg-0">
+                            <div
+                                class="bg-primary mb-3"
+                                style="width: 60px; height: 2px"
+                            ></div>
+                            <h1 class="display-5 mb-5">
+                                Ihr Partner für KI-Lösungen im Bereich
+                                Blockchain-Daten
+                            </h1>
+                            <p class="mb-4 pb-2">
+                                Mit uns gewinnen Sie einen erfahrenen Partner
+                                für die Anwendung Künstlicher Intelligenz im
+                                Bereich Blockchain-Datenanalyse – ohne Handel
+                                oder Kryptowährungen. Unser Team entwickelt
+                                präzise, datengestützte Lösungen, mit denen Sie
+                                komplexe Blockchain-Daten verstehen,
+                                strukturieren und nutzen können. Wir bieten
+                                Ihnen einen ganzheitlichen, datenzentrierten
+                                Ansatz. Darum sind wir die richtige Wahl:
+                            </p>
+                            <div class="row g-4">
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-square bg-white rounded-circle"
+                                            style="width: 64px; height: 64px"
+                                        >
+                                            <img
+                                                class="img-fluid"
+                                                src="img/icon/icon-7.png"
+                                                alt="Icon"
+                                            />
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Verlässlich
+                                            </p>
+                                            <h5 class="mb-0">
+                                                Datensicherheit
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-square bg-white rounded-circle"
+                                            style="width: 64px; height: 64px"
+                                        >
+                                            <img
+                                                class="img-fluid"
+                                                src="img/icon/icon-10.png"
+                                                alt="Icon"
+                                            />
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Präzise
+                                            </p>
+                                            <h5 class="mb-0">Analysen</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-square bg-white rounded-circle"
+                                            style="width: 64px; height: 64px"
+                                        >
+                                            <img
+                                                class="img-fluid"
+                                                src="img/icon/icon-3.png"
+                                                alt="Icon"
+                                            />
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Innovativ
+                                            </p>
+                                            <h5 class="mb-0">KI-Strategien</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-square bg-white rounded-circle"
+                                            style="width: 64px; height: 64px"
+                                        >
+                                            <img
+                                                class="img-fluid"
+                                                src="img/icon/icon-2.png"
+                                                alt="Icon"
+                                            />
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Immer für Sie da
+                                            </p>
+                                            <h5 class="mb-0">24/7 Support</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pe-lg-0" style="min-height: 400px">
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/feature.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- Blog Start -->
+        <div class="container-xxl py-5" id="blog">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div
+                        class="bg-primary mb-3 mx-auto"
+                        style="width: 60px; height: 2px"
+                    ></div>
+                    <h1 class="display-5">
+                        Aktuelles Wissen über KI und
+                        Blockchain-Datenverarbeitung
+                    </h1>
+                    <p class="mb-5">
+                        Willkommen in unserem neuesten Blogbereich, in dem wir
+                        fundierte Einblicke und praxisnahe Tipps zur Arbeit mit
+                        Blockchain-Daten durch Künstliche Intelligenz bieten.
+                        Unsere Artikel konzentrieren sich auf das Lernen und
+                        Analysieren von Blockchain-Daten – ganz ohne Bezug zu
+                        Handel oder Kryptowährungen. Entdecken Sie die
+                        Möglichkeiten intelligenter Datenverarbeitung in
+                        dezentralen Systemen!
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item">
+                            <div class="overflow-hidden position-relative">
+                                <img
+                                    style="
+                                        width: 100%;
+                                        height: 400px;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/blog-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">
+                                    Grundlagen verstehen: KI-basierte Analyse
+                                    von Blockchain-Daten
+                                </h5>
+                                <span>
+                                    In diesem Beitrag lernen Sie, wie Sie
+                                    mithilfe von KI wertvolle Informationen aus
+                                    Blockchain-Daten gewinnen. Wir zeigen Ihnen,
+                                    welche Tools und Modelle bei der
+                                    Datenverarbeitung helfen und wie Sie diese
+                                    effektiv für Analysen strukturieren.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item">
+                            <div class="overflow-hidden position-relative">
+                                <img
+                                    style="
+                                        width: 100%;
+                                        height: 400px;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/blog-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">
+                                    Datenqualität und Struktur: Schlüssel zur
+                                    effektiven KI-Auswertung
+                                </h5>
+                                <span>
+                                    Die Verarbeitung von Blockchain-Daten
+                                    erfordert ein tiefes Verständnis der
+                                    Datenstruktur und -qualität. In diesem
+                                    Artikel zeigen wir, wie Sie unstrukturierte
+                                    Informationen für KI-Anwendungen vorbereiten
+                                    und analysierbar machen – ein zentraler
+                                    Schritt für aussagekräftige Ergebnisse.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Testimonial Start -->
+        <div
+            class="container-xxl py-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+            id="testimonial"
+        >
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div
+                        class="bg-primary mb-3 mx-auto"
+                        style="width: 60px; height: 2px"
+                    ></div>
+                    <h1 class="display-5">Was unsere Teilnehmer sagen</h1>
+                    <p class="mb-5">
+                        Lesen Sie, wie unsere Teilnehmer von unserem Fachwissen
+                        über KI-gestützte Arbeit mit Blockchain-Daten profitiert
+                        haben. Hier sind einige Rückmeldungen:
+                    </p>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div
+                        class="testimonial-item text-center"
+                        data-dot="<img class='img-fluid' src='img/testimonial-1.jpg' alt=''>"
+                    >
+                        <p class="fs-5">
+                            "Die Einführung in die KI-Analyse von
+                            Blockchain-Daten war hervorragend strukturiert. Ich
+                            konnte sofort praktische Erkenntnisse gewinnen, die
+                            mir bei der Arbeit mit großen Datenmengen aus
+                            dezentralen Netzwerken geholfen haben."
+                        </p>
+                        <h4>Stefan Müller</h4>
+                    </div>
+                    <div
+                        class="testimonial-item text-center"
+                        data-dot="<img class='img-fluid' src='img/testimonial-2.jpg' alt=''>"
+                    >
+                        <p class="fs-5">
+                            "Die Erklärung der Datenstrukturen innerhalb der
+                            Blockchain war sehr aufschlussreich. Besonders
+                            hilfreich waren die praktischen Beispiele, wie KI
+                            diese Daten nutzbar macht."
+                        </p>
+                        <h4>Laura Weber</h4>
+                    </div>
+                    <div
+                        class="testimonial-item text-center"
+                        data-dot="<img class='img-fluid' src='img/testimonial-3.jpg' alt=''>"
+                    >
+                        <p class="fs-5">
+                            "Die Kombination aus technischer Tiefe und
+                            verständlicher Darstellung hat mir sehr gefallen.
+                            Ich fühle mich jetzt sicher im Umgang mit
+                            Blockchain-Daten und der Anwendung von KI-Modellen
+                            zur Analyse."
+                        </p>
+                        <h4>Jonas Becker</h4>
+                    </div>
+                    <div
+                        class="testimonial-item text-center"
+                        data-dot="<img class='img-fluid' src='img/testimonial-4.jpg' alt=''>"
+                    >
+                        <p class="fs-5">
+                            "Dank der praxisnahen Inhalte konnte ich mein
+                            Verständnis für dezentrale Datenstrukturen deutlich
+                            erweitern. Die Erklärungen zur automatisierten
+                            Verarbeitung durch KI waren besonders nützlich für
+                            meine berufliche Weiterentwicklung."
+                        </p>
+                        <h4>Marie Schneider</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Contact Start -->
+        <div
+            class="container-fluid bg-light overflow-hidden px-lg-0"
+            id="contact"
+        >
+            <div class="container contact px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div
+                        class="col-lg-6 contact-text py-5 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="p-lg-5 ps-lg-0">
+                            <div class="section-title text-start">
+                                <h1 class="display-5 mb-4">
+                                    Kontaktieren Sie uns
+                                </h1>
+                            </div>
+                            <form action="thanks.html" method="get">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                id="name"
+                                                placeholder="Ihr Name"
+                                                required
+                                            />
+                                            <label for="name">Ihr Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="email"
+                                                class="form-control"
+                                                id="email"
+                                                placeholder="Ihre E-Mail"
+                                                required
+                                            />
+                                            <label for="email"
+                                                >Ihre E-Mail</label
+                                            >
+                                            <div id="result"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                id="subject"
+                                                placeholder="Betreff"
+                                                required
+                                            />
+                                            <label for="subject">Betreff</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea
+                                                class="form-control"
+                                                placeholder="Nachricht hinterlassen"
+                                                id="message"
+                                                style="height: 100px"
+                                                required
+                                            ></textarea>
+                                            <label for="message"
+                                                >Nachricht</label
+                                            >
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <button
+                                            class="btn btn-primary w-100 py-3"
+                                            type="submit"
+                                            id="submit"
+                                        >
+                                            Nachricht senden
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pe-lg-0" style="min-height: 400px">
+                        <div class="position-relative h-100">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38863.62927896049!2d13.385483651935601!3d52.497659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84fa64d83692f%3A0x88bf61b5088be982!2sBlockchain%20Embassy!5e0!3m2!1suk!2sua!4v1743739272304!5m2!1suk!2sua"
+                                class="position-absolute w-100 h-100"
+                                style="object-fit: cover"
+                                frameborder="0"
+                                allowfullscreen=""
+                                aria-hidden="false"
+                                tabindex="0"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">LernKette</h5>
+                        <p>
+                            Unser Beratungsunternehmen ist auf Schulung und
+                            Expertise rund um künstliche Intelligenz in der
+                            Blockchain spezialisiert – mit einem klaren Fokus
+                            auf die Analyse und Verarbeitung von
+                            Blockchain-Daten. Wir helfen Ihnen dabei, moderne
+                            Technologien zu verstehen und praktisch anzuwenden –
+                            ohne Handel oder Kryptowährungen.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">Adresse</h5>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>
+                            Manteuffelstraße 77, 10999 Berlin
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i
+                            >lern_kette@gmail.com
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i>+494369010318417
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">Schnellzugriff</h5>
+                        <a class="btn btn-link" href="about.html">Über uns</a>
+                        <a class="btn btn-link" href="contact.html">Kontakt</a>
+                        <a class="btn btn-link" href="service.html"
+                            >Unsere Leistungen</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Nutzungsbedingungen</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Datenschutzrichtlinie</a
+                        >
+                        <a class="btn btn-link" href="coookie-policy.html"
+                            >Cookie-Richtlinie</a
+                        >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">Newsletter</h5>
+                        <p>
+                            Vielen Dank für Ihren Besuch. Lassen Sie uns
+                            gemeinsam die Welt der künstlichen Intelligenz und
+                            Blockchain-Daten erkunden.
+                        </p>
+                        <form action="thanks.html" method="get">
+                            <div class="position-relative w-100">
+                                <input
+                                    class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5"
+                                    type="text"
+                                    placeholder="Ihre E-Mail"
+                                    id="email"
+                                    required
+                                />
+                                <button
+                                    type="button"
+                                    class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                                    id="submit"
+                                >
+                                    Anmelden
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie-Zustimmung</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Diese Website verwendet Cookies, um Ihnen ein besseres und
+                    relevanteres Surferlebnis zu bieten.
+                    <a href="coookie-policy.html">Mehr erfahren...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">
+                    Akzeptieren
+                </button>
+                <button class="cookie-button" id="declineBtn">Ablehnen</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
